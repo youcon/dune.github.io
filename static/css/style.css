@@ -485,34 +485,44 @@ section#activities .act-time {
 }
 
 section#schedule{
-    background-color: #282929;
+    background-color: #112136;
 }
-section#schedule p{
-    font-size: 14px;
-    line-height: 1.42857143;
-}
-section#schedule .schedule-btn {
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 30px;
-    color: #696969;
-    background-color: #3e4040;
-    margin-right: 5px;
-    font-weight: 700;
-    border-radius: 0px;
-    width: 200px;
-}
-section#schedule a {
-    color: ##21c7da;
-    text-decoration: none;
+section#schedule .section-heading {
+    color: white;
 }
 
-.show_desc {
-    display: block;
+section#schedule .sch-day {
+    font-size: 20px;
+    background: #368DB2;
+    background: linear-gradient(to right, #368DB2, #5036D2);
+    background: -webkit-linear-gradient(to right, #368DB2, #5036D2);
+    background: -o-linear-gradient(to right, #368DB2, #5036D2);
+    background: -moz-linear-gradient(to right, #368DB2, #5036D2);
+    height: 50px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    padding-top: 20px;
+    color: white;
 }
-.hide_desc {
-    display: none;
+section#schedule .sch-time {
+    font-size: 20px;
+    text-align: center;
+    background: #7D94CD;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-top: 10px;
 }
+section#schedule .sch-name {
+    font-size: 20px;
+    background: white;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-top: 10px;
+}
+
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
@@ -528,56 +538,6 @@ section#schedule a {
     padding: 2px 15px;
 }
 
-section#schedule .schedule-time {
-    font-size: 50px;
-    font-weight: 700;
-    text-align: right;
-}
-section#schedule .schedule-box {
-    margin-top: 15px;
-}
-section#schedule .speak-box {
-    background-color: #202223;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 15px;
-}
-section#schedule .speaker-photo {
-    height: 100px;
-    width: 100px;
-}
-section#schedule .speak-title {
-    font-weight: 700;
-    color: #21c7da;
-    font-size: 25px;
-}
-section#schedule .speak-description {
-    margin-bottom: 10px;
-    word-wrap: break-word;
-    color: #c4c4c4;
-}
-section#schedule .speaker-name {
-    font-weight: 700;
-/*    color: #696969;*/
-    color: #FFFFFF;
-    font-size: 18px;
-}
-section#schedule .speaker-bio {
-    word-wrap: break-word;
-    color: #c4c4c4;
-}
-section#schedule .speak-important {
-    color: #cc1634;
-}
-section#schedule .speak-none-time {
-    color: #717777;
-}
-section#schedule .speak-none-box {
-    background-color: #717777;
-}
-section#schedule .section-heading {
-    color: #21c7da;
-}
 
 section#partners {
     background: #202223;
