@@ -221,8 +221,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
     color: white;
-    background-color: #21c7da;
-    border-color: #21c7da;
+    background-color: #E39532;
+    border-color: #E39532;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -239,7 +239,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     color: white;
-    background-color: #086c77;
+    background-color: #E39532;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -261,11 +261,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    background-color: #21c7da;
-    border-color: #21c7da;
+    background-color: #E39532;
+    border-color: #E39532;
 }
 .btn-xl .badge {
-    color: #21c7da;
+    color: #E39532;
     background-color: white;
 }
 .navbar-custom {
@@ -273,7 +273,7 @@ fieldset[disabled] .btn-xl.active {
     border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-    color: #21c7da;
+    color: #E39532;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -306,17 +306,17 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-    color: #21c7da;
+    color: #E39532;
     outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
     border-radius: 0;
-    color: #21c7da;
+    color: #E39532;
     background-color: transparent;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-    color: #21c7da;
+    color: #E39532;
     background-color: transparent;
 }
 @media (min-width: 768px) and  (max-width: 991px) {
@@ -495,12 +495,12 @@ section#schedule a {
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
     border-radius: 0px;
-    background-color: #21c7da;
+    background-color: #E39532;
 }
 .nav-pills>li>a:focus,
 .nav>li>a:hover {
     border-radius: 0px;
-    background-color: #21c7da;
+    background-color: #E39532;
 }
 .nav-pills>li>a {
     padding: 2px 15px;

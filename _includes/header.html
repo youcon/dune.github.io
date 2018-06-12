@@ -14,7 +14,7 @@
                 </button>
             {% endif %}
             {% for event in site.previous_events %}
-                <a class="navbar-brand page-scroll" href="{{ event.link }}">{{ event.name }}</a>
+                <a class="navbar-brand page-scroll events" href="{{ event.link }}">{{ event.name }}</a>
             {% endfor %}
             {% for event in site.other_events %}
                 <a class="navbar-brand page-scroll events" href="{{ event.link }}">{{ event.name }}</a>
@@ -36,9 +36,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#partners">Партнеры</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Организаторы</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contacts">Контакты</a>
