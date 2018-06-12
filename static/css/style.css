@@ -551,17 +551,7 @@ section#about .section-subheading{
     color: black;
 }
 section#contacts{
-    background-image: url('../images/back2.png');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-color: #202223;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #112136;
 }
 section#contacts .section-heading {
     color: white;
@@ -575,16 +565,10 @@ section#contacts .address {
     margin-bottom: 15px
 }
 
-
-input[type=text] {
-    height: 50px;
-    width: 80%;
-    float: left;
+section#contacts a {
+    color: white;
 }
 
-#success {
-    display: none
-}
 section#registration{
     background-color: #FFFFFF;
     background-position: center;

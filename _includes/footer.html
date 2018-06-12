@@ -21,22 +21,21 @@
 </script>
 <script>
     function initMap() {
-        var youcon = {lat: 51.518843, lng: 46.019923};
+        var dune = {lat: 51.469381, lng: 46.0638067};
         var isDraggable = jQuery(document).width() > 480 ? true : false;
         var map = new google.maps.Map(document.getElementById('map'), {
             scrollwheel: false,
             draggable: isDraggable,
             zoom: 16,
-            center: youcon
+            center: dune 
         });
 
-        var youconMarker = {lat: 51.518843, lng: 46.019923};
+        var duneMarker = {lat: 51.469381, lng: 46.0638067};
         var marker = new google.maps.Marker({
-            position: youconMarker,
-            icon: "static/images/marker.png",
+            position: duneMarker,
             map: map
         });
-        var youconAdddress = "<h5>САРАТОВСКАЯ ГОСУДАРСТВЕННАЯ ЮРИДИЧЕСКАЯ АКАДЕМИЯ</h5><p>ул. Чернышевского, 104</p><p class=\"address\"><a href=\"tel:89271209970\">+7 927 120 99 70</a></div><div class=\"address\"><a href=\"mailto:info@youcon.ru\">info@youcon.ru</a></div><p class=\"soc-links map\"><a target=\"_blank\" href=\"https://vk.com/youconsaratov2017\"><i class=\"fa fa-vk\"></i></a><a target=\"_blank\" href=\"https://twitter.com/youconsaratov\"><i class=\"fa fa-twitter\"></i></a><a target=\"_blank\" href=\"https://www.facebook.com/profile.php?id=100015450615218&fref=ts\"><i class=\"fa fa-facebook\"></i></a><a target=\"_blank\" href=\"https://plus.google.com/+YouconRu?hl=ru\"><i class=\"fa fa-google-plus\"></i></a><a target=\"_blank\" href=\"https://www.instagram.com/youconsaratov/\"><i class=\"fa fa-instagram\"></i></a><a target=\"_blank\" href=\"https://github.com/youcon/youcon.github.io\"><i class=\"fa fa-github-alt\"></i></a></p>";
+        var youconAdddress = "<h5>База отдыха 'Дубровка'</h5><p>Саратовская область, Энгельсский район, ул. Лесокомбинатская, 18 квартал, 1 выдел</p>"
         var infowindow = new google.maps.InfoWindow({
             content: youconAdddress
         });
