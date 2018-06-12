@@ -8,18 +8,6 @@ body {
 .text-primary {
     color: #21c7da;
 }
-section#splitter {
-    background-image: url('../images/splitter1.png');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height: 150px;
-    padding-top: 150px;
-}
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -540,43 +528,15 @@ section#schedule .sch-name {
 
 
 section#partners {
-    background: #202223;
-    background: linear-gradient(#3897d4, #0eafc2);
-    background: -webkit-linear-gradient(#3897d4, #0eafc2);
-    background: -o-linear-gradient(#3897d4, #0eafc2);
-    background: -moz-linear-gradient(#3897d4, #0eafc2);
+    background: white;
 }
 section#partners .section-heading {
-    color: white;
+    color: black;
 }
 section#partners .info-partners {
     margin-top: 50px;
 }
 
-section#team {
-    background-color: #202223;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-section#team .org-photo {
-    height: 150px;
-    width: 150px;
-}
-section#team .org-name {
-    color: #21c7da;
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-section#team .org-bio {
-    color:white;
-}
-section#team .org-line{
-    margin-bottom: 50px;
-}
-section#team .section-heading {
-    color: white;
-}
 
 section#about {
     background-color: #FFFFFF;
