@@ -1,0 +1,22 @@
+<section id="activities">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="section-heading">Что тебя ждет на Дюне</h2>
+            </div>
+        </div>
+        {% for activity in site.data.activities %}
+            {% assign loopindex = forloop.index0 | modulo: 2 %}
+            {% if loopindex == 0 %}
+                <div class="row act-box">
+            {% endif %}
+                <div class="col-xs-6">
+                    <h2 class="act-name">{{activity.sign}} {{activity.title}}</h2>
+                    <h3 class="act-desc"><span class="act-time">{{activity.time}}</span> - {{activity.description}}</h3>
+                </div>
+            {% if loopindex == 1 or forloop.last == true %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>

@@ -462,6 +462,28 @@ section h3.section-subheading span {
     text-transform: none;
 }
 
+
+section#activities{
+    background-color: #DAA73B;
+}
+section#activities .act-name { 
+    text-transform:none;
+    color: white;
+    font-weight: normal;
+}
+section#activities .act-desc { 
+    text-transform: none;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 0px;
+}
+section#activities .act-box {
+    margin-left: 30px
+}
+section#activities .act-time {
+    font-weight: 700;
+}
+
 section#schedule{
     background-color: #282929;
 }
