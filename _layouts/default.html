@@ -7,11 +7,6 @@
     {% include header.html %}
     {% if site.is_in_progress %}
         {% include section_about.html %}
-        {% if site.is_registration_open %}
-            {% include section_registration.html %}
-        {% else %}
-            {% include section_closed_registration.html %}
-        {% endif %}
         {% include section_schedule.html %}
         <section id="splitter"/>
         {% include section_partners.html %}

@@ -58,6 +58,11 @@
             {% unless site.is_in_progress %}
                 <a href="#subscribe" class="page-scroll btn btn-xl reg">Подписаться</a>
             {% endunless %}
+            {% if site.is_registration_open %}
+                <p class="reg-btn-sec">
+                    <a href="#" class="page-scroll btn btn-xl reg twf">Купить билет</a>
+                </p>
+            {% endif %}
         </div>
     </div>
 </header>

@@ -649,13 +649,16 @@ section#registration{
     background-repeat: no-repeat;
     text-align: center;
 }
-section#registration .reg{
+.reg{
     background: #E39532;
     background: linear-gradient(to right, #E39532, #F9C31F);
     background: -webkit-linear-gradient(to right, #E39532, #F9C31F);
     background: -o-linear-gradient(to right, #E39532, #F9C31F);
     background: -moz-linear-gradient(to right, #E39532, #F9C31F);
     border-color: #E39532;
+}
+.reg-btn-sec {
+    margin-top: 70px;
 }
 @media (min-width: 768px) {
     section#registration .reg-input {
