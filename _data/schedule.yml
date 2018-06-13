@@ -1,38 +1,19 @@
 - name: "13 июля"
   schedule:
-            - time: "9:00"
-              title: "Начало регистрации"
-              description: "Открывается регистрация на конференцию"
-            - time: "10:00"
-              title: "Торжественное открытие"
-            - time: "10:15"
-              tracks:
-                        - name: "T1"
-                          title: "D1"
-                          speaker:
-                                    bio: "C1"
-                                    name: "S1"
-                        - name: "T2"
-                          title: "D2"
-                          speaker:
-                                    bio: "C2"
-                                    name: "S2"
+            - time: "16:00"
+              title: "Начало заселения."
+            - time: "21:00"
+              title: "Расписание уточняется"
 - name: "14 июля"
   schedule:
             - time: "9:00"
-              title: "Начало регистрации"
-              description: "Открывается регистрация на конференцию"
+              title: "Расписание уточняется"
             - time: "10:00"
-              title: "Торжественное открытие"
+              title: "Расписание уточняется"
             - time: "10:15"
               tracks:
-                        - name: "T1"
-                          title: "D1"
+                        - name: "Трек 1"
+                          title: "Доклад уточняется"
                           speaker:
-                                    bio: "C1"
-                                    name: "S1"
-                        - name: "T2"
-                          title: "D2"
-                          speaker:
-                                    bio: "C2"
-                                    name: "S2"
+                                    bio: ""
+                                    name: ""

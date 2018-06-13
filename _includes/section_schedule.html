@@ -30,7 +30,7 @@
                             <div class="row">
                            {% for track in schedule.tracks %}
                                 <div class="col-md-6">
-                                    {{track.name}}-{{track.title}}-{{track.speaker.name}}-{{track.speaker.bio}}
+                                    {{track.name}}-{{track.title}}{% if track.speaker.name!="" %}- {{track.speaker.name}}{% endif %}{% if track.speaker.bio!="" %}-{{track.speaker.bio}}{% endif %}
                                 </div>
                            {% endfor %} 
                             </div>
