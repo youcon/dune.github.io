@@ -1,0 +1,43 @@
+<section id="schedule">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-heading">Расписание</h2>
+            </div>
+        </div>
+        {% for day in site.data.schedule %}
+           <div class="row">
+                <div class="col-md-12 sch-day">
+                    {{day.name}}
+                </div>
+           </div>  
+            {% for schedule in day.schedule %}
+                {% if schedule.tracks == null %}
+                   <div class="row">
+                        <div class="col-md-1 sch-time">
+                          {{schedule.time}} 
+                        </div>
+                        <div class="col-md-11 sch-name">
+                            {{schedule.title}}
+                        </div>
+                   </div>  
+                {% else %}
+                   <div class="row">
+                        <div class="col-md-1 sch-time">
+                          {{schedule.time}} 
+                        </div>
+                        <div class="col-md-11 sch-name">
+                            <div class="row">
+                           {% for track in schedule.tracks %}
+                                <div class="col-md-6">
+                                    {{track.name}}-{{track.title}}{% if track.speaker.name!="" %}- {{track.speaker.name}}{% endif %}{% if track.speaker.bio!="" %}-{{track.speaker.bio}}{% endif %}
+                                </div>
+                           {% endfor %} 
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</section>

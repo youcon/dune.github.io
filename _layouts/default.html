@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body id="page-top" class="index">
+    {% include header.html %}
+    {% if site.is_in_progress %}
+        {% include section_about.html %}
+        {% include section_activities.html %}
+        {% include section_schedule.html %}
+        {% include section_partners.html %}
+    {% else %}
+        {% include section_subscribe.html %}
+    {% endif %}
+    {% include section_contacts.html %}
+
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,30 @@
+name: DuneCamp
+
+google_analytics: 123
+
+markdown: kramdown
+
+# This flag means that event is still in progress but registration is closed
+is_registration_open: true
+
+# This flag means that event is in progress, otherwise need to transform to cooming soon page
+is_in_progress: true
+
+previous_events:
+    - name: "Юкон"
+      link: https://youcon.ru
+
+other_events:
+    - name: "Хакатон"
+      link: https://ottepel.youcon.ru
+
+event_date: "13-15 июля 2018"
+event_city: "Саратов"
+event_location_name: "турбаза 'Дубровка'" 
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
