@@ -1,7 +1,7 @@
 - name: GridDynamics
   website: https://griddynamics.com
   logo: static/images/sponsors/grid.png
-  hover: static/images/sponsors/grid_2.png
+  hover: static/images/sponsors/grid.png
 - name: Exactpro
   website: https://exactpro.com/
   logo: static/images/sponsors/exactpro.png
@@ -13,11 +13,11 @@
 - name: Haulmont
   website: https://www.haulmont.ru/
   logo: static/images/sponsors/haul.png
-  hover: static/images/sponsors/haul_2.png
+  hover: static/images/sponsors/haul.png
 - name: Тамтэк
   website: http://thumbtack.ru/
   logo: static/images/sponsors/tam.png
-  hover: static/images/sponsors/tam_2.png
+  hover: static/images/sponsors/tam.png
 - name: PROFSOFT
   website: http://www.profsoft.pro/
   logo: static/images/sponsors/prof.png
@@ -28,8 +28,8 @@
   hover: static/images/sponsors/opendev.png
 - name: Skyeng
   website: https://skyeng.ru/
-  logo: static/images/sponsors/skyeng.svg
-  hover: static/images/sponsors/skyeng.svg
+  logo: static/images/sponsors/skyeng.png
+  hover: static/images/sponsors/skyeng.png
 - name: DIGITALDESIGN
   website: https://digdes.ru/
   logo: static/images/sponsors/digdes.png
