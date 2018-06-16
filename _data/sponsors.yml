@@ -34,3 +34,8 @@
   website: https://digdes.ru/
   logo: static/images/sponsors/digdes.png
   hover: static/images/sponsors/digdes.png
+- name: StratoLab
+  website: http://stratolab.ru
+  logo: static/images/sponsors/strato.png
+  hover: static/images/sponsors/strato.png
+
