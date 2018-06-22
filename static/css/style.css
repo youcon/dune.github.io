@@ -587,7 +587,7 @@ header .intro-date {
 }
 @media (min-width: 768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 225px;
         padding-bottom: 200px;
     }
     header .intro-text .intro-lead-in {
@@ -752,6 +752,7 @@ section#about .section-subheading{
     color: #6D6D6D;
     text-align: center;
     font-size: 18px;
+    line-height: 1.4;
 }
 section#contacts{
     background-color: #112136;
@@ -766,6 +767,9 @@ section#contacts .address-title {
 section#contacts .address {
     color: white;
     margin-bottom: 15px
+}
+section#contacts .container {
+    margin-bottom: 55px
 }
 
 section#contacts a {
