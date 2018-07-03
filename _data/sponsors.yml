@@ -38,4 +38,12 @@
   website: http://stratolab.ru
   logo: static/images/sponsors/strato.png
   hover: static/images/sponsors/strato.png
+- name: Citek
+  website: http://citeck.ru
+  logo: static/images/sponsors/citeck.png
+  hover: static/images/sponsors/citeck.png
+- name: BigDatix
+  website: http://bigdatix.com/
+  logo: static/images/sponsors/bigd.png
+  hover: static/images/sponsors/bigd.png
 
