@@ -28,7 +28,7 @@
                             
                            {% for track in schedule.tracks %}
                                 <td class="sch-name">    
-                                    {{track.title}}{% if track.speaker.name!="" %}- {{track.speaker.name}}{% endif %}{% if track.speaker.bio!="" %}-{{track.speaker.bio}}{% endif %}
+                                    <strong>{{track.title}}</strong>{% if track.speaker.name!="" %} {{track.speaker.name}}{% endif %}{% if track.speaker.bio!="" %} ({{track.speaker.bio}}){% endif %}
                                 </td>
                            {% endfor %} 
                         </tr>
