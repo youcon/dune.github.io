@@ -60,10 +60,10 @@
                                     bio: "Senior Software Engineer - разработчик платформы Vimbox в Skyeng"
                                     name: "Кирилл Роговой"
                         - name: "Трек 2"
-                          title: "Доклад уточняется"
+                          title: "Будни Специалиста по Машинному Обучению: мифы, реальность, kaggle."
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "Senior Data Scientist - GridDynamics"
+                                    name: "Тимофей Дураков"
             - time: "14:40"
               tracks:
                         - name: "Трек 1"
