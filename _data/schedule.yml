@@ -72,10 +72,10 @@
                                     bio: ""
                                     name: ""
                         - name: "Трек 2"
-                          title: "Доклад уточняется"
-                          speaker:
-                                    bio: ""
-                                    name: ""  
+                          title: "Apache Solr: фишки, грабли и быстрый поиск"
+                          speaker: "Руденко Евгений"
+                                    bio: "Citeck"
+                                    name: "Руденко Евгений"  
             - time: "15:20"
               tracks:
                         - name: "Трек 1"
