@@ -67,10 +67,10 @@
             - time: "14:40"
               tracks:
                         - name: "Трек 1"
-                          title: "Доклад уточняется"
+                          title: "SpecFlow: Начало"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "RokoLabs"
+                                    name: "Дмитрий Верескун"
                         - name: "Трек 2"
                           title: "Apache Solr: фишки, грабли и быстрый поиск"
                           speaker: 
