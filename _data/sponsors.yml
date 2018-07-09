@@ -18,6 +18,10 @@
   website: http://thumbtack.ru/
   logo: static/images/sponsors/tam.png
   hover: static/images/sponsors/tam.png
+- name: Roko Labs
+  website: https://www.rokolabs.com/
+  logo: static/images/sponsors/rokolabs.png
+  hover: static/images/sponsors/rokolabs.png
 - name: PROFSOFT
   website: http://www.profsoft.pro/
   logo: static/images/sponsors/prof.png
