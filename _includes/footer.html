@@ -1,3 +1,22 @@
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="soc-links">
+                    <a target="_blank" href="https://vk.com/dunecamp"><i class="fa fa-vk"></i></a>
+                    <a target="_blank" href="https://twitter.com/youconsaratov"><i class="fa fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/youconsaratov/"><i class="fa fa-facebook"></i></a>
+                    <a target="_blank" href="https://plus.google.com/+YouconRu?hl=ru"><i class="fa fa-google-plus"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/youconsaratov/"><i class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="https://github.com/youcon/youcon.github.io"><i class="fa fa-github-alt"></i></a>
+                </div>
+                <p class="copyright">Юкон &copy; 2018. ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
@@ -19,35 +38,37 @@
   ga('send', 'pageview');
 
 </script>
-<script>
-    function initMap() {
-        var dune = {lat: 51.469381, lng: 46.0638067};
-        var isDraggable = jQuery(document).width() > 480 ? true : false;
-        var map = new google.maps.Map(document.getElementById('map'), {
-            scrollwheel: false,
-            draggable: isDraggable,
-            zoom: 16,
-            center: dune 
-        });
+{% if !site.is_in_progress %}
+    <script>
+        function initMap() {
+            var dune = {lat: 51.469381, lng: 46.0638067};
+            var isDraggable = jQuery(document).width() > 480 ? true : false;
+            var map = new google.maps.Map(document.getElementById('map'), {
+                scrollwheel: false,
+                draggable: isDraggable,
+                zoom: 16,
+                center: dune 
+            });
 
-        var duneMarker = {lat: 51.469381, lng: 46.0638067};
-        var marker = new google.maps.Marker({
-            position: duneMarker,
-            map: map
-        });
-        var youconAdddress = "<h5>База отдыха 'Дубровка'</h5><p>Саратовская область, Энгельсский район, ул. Лесокомбинатская, 18 квартал, 1 выдел</p>"
-        var infowindow = new google.maps.InfoWindow({
-            content: youconAdddress
-        });
-        marker.addListener('click', function() {
-            infowindow.open(map, marker);
-        });
+            var duneMarker = {lat: 51.469381, lng: 46.0638067};
+            var marker = new google.maps.Marker({
+                position: duneMarker,
+                map: map
+            });
+            var youconAdddress = "<h5>База отдыха 'Дубровка'</h5><p>Саратовская область, Энгельсский район, ул. Лесокомбинатская, 18 квартал, 1 выдел</p>"
+            var infowindow = new google.maps.InfoWindow({
+                content: youconAdddress
+            });
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
+            });
 
-    }
-</script>
+        }
+    </script>
 <script async defer
                  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlL_WFV5VBi06rt_gPk5pjCUbpQdNDbjY&callback=initMap">
 </script>
+{% endif %}
 <!-- Facebook Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)
