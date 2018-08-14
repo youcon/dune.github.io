@@ -784,6 +784,13 @@ section#contacts a {
     color: white;
 }
 
+section#footer{
+    background-color: #112136;
+}
+section#footer a {
+    color: white;
+}
+
 section#registration{
     background-color: #FFFFFF;
     background-position: center;
@@ -833,7 +840,7 @@ section#registration :-ms-input-placeholder {
     color: #eeeeee;
 }
 section#subscribe {
-    background-color: #202223;
+    background-color: #112136;
     background-position: center;
     background-repeat: no-repeat;
 }
