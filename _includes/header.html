@@ -32,6 +32,9 @@
                         <a class="page-scroll" href="#about">О лагере</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#tickets">Билеты</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#schedule">Расписание</a>
                     </li>
                     <li>
@@ -53,9 +56,9 @@
                 <img class="logo-img" src="static/images/logo.png" alt="Палаточный ИТ лагерь Дюна" />
             </h1>
             {% if site.is_in_progress %}
-            <h1>
-                <img class="date-img" src="static/images/date.png" alt="Палаточный ИТ лагерь Дюна" />
-            </h1>
+                <div class="label date-label">
+                        {{site.event_date}}
+                </div>
             {% endif %}
             {% unless site.is_in_progress %}
                 <a href="#subscribe" class="page-scroll btn btn-xl reg">Подписаться</a>

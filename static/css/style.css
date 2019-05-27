@@ -200,6 +200,21 @@ body {
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
 }
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 .text-muted {
     color: #777777;
 }
@@ -346,6 +361,9 @@ a.events {
 .logo-img {
     width: 100%;
     height: auto;
+}
+.logo {
+    margin-bottom: 50px;
 }
 .date-img {
     width: 35%;
@@ -667,6 +685,31 @@ section#activities .act-time {
     font-weight: 700;
 }
 
+section#tickets{
+    background-color: #112136;
+}
+section#tickets .section-heading {
+    color: white;
+}
+section#tickets .ticket-name { 
+    text-transform:none;
+    color: white;
+    font-weight: normal;
+}
+section#tickets .ticket-desc { 
+    text-transform: none;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 0px;
+    color: white;
+}
+section#tickets .ticket-box {
+    margin-left: 30px
+}
+section#tickets .ticket-price {
+    font-weight: 700;
+}
+
 section#schedule{
     background-color: #112136;
 }
@@ -796,6 +839,16 @@ section#registration{
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
+}
+.date-label{
+    background: #E39532;
+    background: linear-gradient(to right, #E39532, #F9C31F);
+    background: -webkit-linear-gradient(to right, #E39532, #F9C31F);
+    background: -o-linear-gradient(to right, #E39532, #F9C31F);
+    background: -moz-linear-gradient(to right, #E39532, #F9C31F);
+    border-color: #E39532;
+    border-radius: 0;
+    font-size: 4em;
 }
 .reg{
     background: #E39532;
