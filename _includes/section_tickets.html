@@ -1,0 +1,38 @@
+<section id="tickets">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="section-heading">Стоимость билетов на Дюну?</h2>
+            </div>
+        </div>
+        <div class="row ticket-box">
+                <div class="col-sm-4">
+                        <h2 class="ticket-name">Early birds</h2>
+                        <h2 class="ticket-name">до 21 июня</h2>
+                        <h3 class="ticket-desc"><span class="ticket-price">750</span> - 1 день с палаткой</h3>
+                        <h3 class="ticket-desc"><span class="ticket-price">1000</span> - 3 дня с палаткой</h3>
+                </div>
+                <div class="col-sm-4">
+                        <h2 class="ticket-name">Standard</h2>
+                        <h2 class="ticket-name">с 22 июня до 7 июля</h2>
+                        <h3 class="ticket-desc"><span class="ticket-price">1000</span> - 1 день с палаткой</h3>
+                        <h3 class="ticket-desc"><span class="ticket-price">1500</span> - 3 дня с палаткой</h3>
+                </div>
+                <div class="col-sm-4">
+                        <h2 class="ticket-name">Last chance</h2>
+                        <h2 class="ticket-name">c 8 июля до 13 июля</h2>
+                        <h3 class="ticket-desc"><span class="ticket-price">1500</span> - 1 день с палаткой</h3>
+                        <h3 class="ticket-desc"><span class="ticket-price">3000</span> - 3 дня с палаткой</h3>
+                </div>
+        </div>
+    {% if site.is_registration_open %}
+        <div class="row">
+                <div class="col-sm-12 col-sm-offset-4">
+                        <p class="reg-btn-sec">
+                            <a href="#" class="page-scroll btn btn-xl reg twf">Купить билет</a>
+                        </p>
+                </div>
+        </div>
+    {% endif %}
+    </div>
+</section>
