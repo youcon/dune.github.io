@@ -6,3 +6,11 @@
   website: https://griddynamics.com
   logo: static/images/sponsors/grid.png
   hover: static/images/sponsors/grid.png
+- name: Epam
+  website: https://epam.com
+  logo: static/images/sponsors/epam.png
+  hover: static/images/sponsors/epam.png
+- name: Тамтэк
+  website: https://thumbtack.ru
+  logo: static/images/sponsors/tamteck.png
+  hover: static/images/sponsors/tamteck.png
