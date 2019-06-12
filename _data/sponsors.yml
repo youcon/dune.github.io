@@ -14,3 +14,7 @@
   website: https://thumbtack.ru
   logo: static/images/sponsors/tamteck.png
   hover: static/images/sponsors/tamteck.png
+- name: OpenDev
+  website: https://opendev.com/
+  logo: static/images/sponsors/opendev.png
+  hover: static/images/sponsors/opendev.png
