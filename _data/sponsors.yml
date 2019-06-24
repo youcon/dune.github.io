@@ -18,3 +18,11 @@
   website: https://opendev.com/
   logo: static/images/sponsors/opendev.png
   hover: static/images/sponsors/opendev.png
+- name: Haulmont
+  website: https://haulmont.ru/
+  logo: static/images/sponsors/haulmont.png
+  hover: static/images/sponsors/haulmont.png
+- name: LAR
+  website: https://lar.ru/
+  logo: static/images/sponsors/lar.png
+  hover: static/images/sponsors/lar.png
