@@ -2,8 +2,6 @@
   schedule:
             - time: "16:00"
               title: "Начало заселения"
-            - time: "21:30"
-              title: "Торжественное открытие. Награждение победителей забега"
 - name: "13 июля"
   schedule:
             - time: "9:00"
@@ -11,60 +9,60 @@
             - time: "11:00"
               tracks:
                         - name: "Трек 1"
-                          title: "Доклад уточняется"
+                          title: "Blockchain in Capital Markets"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "Иосиф Иткин"
+                                    name: "CEO Exactpro"
                         - name: "Трек 2"
-                          title: "Доклад уточняется"
+                          title: "GraphQL, применение, безопасность и т.п."
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "Senior Java Developer, Team Lead, OpenDev"
+                                    name: "Роман Гетманцев"
             - time: "11:40"
               tracks:
                         - name: "Трек 1"
-                          title: "Доклад уточняется"
+                          title: "Как последние тренды в тестировании влияют на требования к специалистам"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "EPAM"
+                                    name: "Андрей Белов, Дмитрий Костяшов, Дмитрий Честнов"
                         - name: "Трек 2"
-                          title: "Доклад уточняется"
+                          title: "Hedera Hashgraph"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "Генеральный директор - Архитекторы Решений"
+                                    name: "Андрей Гусев"
             - time: "12:20"
               tracks:
                         - name: "Трек 1"
-                          title: "Доклад уточняется"
+                          title: "Авто-тестирование без команды авто-тестировщиков: миф или реальность"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "Lead QA Engineer Rokolabs"
+                                    name: "Сусликова Анастасия"
                         - name: "Трек 2"
-                          title: "Доклад уточняется"
+                          title: "Opensource"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "Технический директор компании ANMEDIO, сооснователь компании multikey.studio"
+                                    name: "Николай Сладкий"
             - time: "13:00"
               title: "Обед"
             - time: "14:00"
               tracks:
                         - name: "Трек 1"
-                          title: "Доклад уточняется"
+                          title: "Миграция большого проекта: как сделать успеть пол года за неделю"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "Архитектор ПО Тамтэк"
+                                    name: "Белоусов Дмитрий"
                         - name: "Трек 2"
                           title: "Доклад уточняется"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "DigitalDesign"
+                                    name: "Игорь Янковский"
             - time: "14:40"
               tracks:
                         - name: "Трек 1"
-                          title: "Доклад уточняется"
+                          title: "Agile в организации и применение гибких методологий. Стильно, модно, но зачем?"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "scrum-мастер"
+                                    name: "Дмитрий Галкин"
                         - name: "Трек 2"
                           title: "Доклад уточняется"
                           speaker:
