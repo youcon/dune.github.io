@@ -26,3 +26,15 @@
   website: https://lar.ru/
   logo: static/images/sponsors/lar.png
   hover: static/images/sponsors/lar.png
+- name: StratoLAB
+  website: https://vk.com/stratolab
+  logo: static/images/sponsors/strato.png
+  hover: static/images/sponsors/strato.png
+- name: BigDatix
+  website: https://www.bigdatix.com/
+  logo: static/images/sponsors/bigdatix.png
+  hover: static/images/sponsors/bigdatix.png
+- name: MoeDelo
+  website: https://www.moedelo.org/
+  logo: static/images/sponsors/moedelo.png
+  hover: static/images/sponsors/moedelo.png
