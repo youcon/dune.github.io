@@ -11,8 +11,8 @@
                         - name: "Трек 1"
                           title: "Blockchain in Capital Markets"
                           speaker:
-                                    bio: "Иосиф Иткин"
-                                    name: "CEO Exactpro"
+                                    bio: "CEO Exactpro"
+                                    name: "Иосиф Иткин"
                         - name: "Трек 2"
                           title: "GraphQL, применение, безопасность и т.п."
                           speaker:
@@ -64,10 +64,10 @@
                                     bio: "scrum-мастер"
                                     name: "Дмитрий Галкин"
                         - name: "Трек 2"
-                          title: "Доклад уточняется"
+                          title: "Разработка свободного программного обеспечения на примере Samba"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "BaseAlt"
+                                    name: "Евгений Синельников"
             - time: "15:20"
               tracks:
                         - name: "Трек 1"
@@ -83,10 +83,10 @@
             - time: "16:00"
               tracks:
                         - name: "Трек 1"
-                          title: "Доклад уточняется"
+                          title: "Невидимая ниша, которая приносит миллионы фунтов в год"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "Brand Strategist LAR"
+                                    name: "Роман Шаповал"
                         - name: "Трек 2"
                           title: "Доклад уточняется"
                           speaker:
