@@ -71,10 +71,10 @@
             - time: "15:20"
               tracks:
                         - name: "Трек 1"
-                          title: "Доклад уточняется"
+                          title: "Как продать длинный хвост"
                           speaker:
-                                    bio: ""
-                                    name: ""
+                                    bio: "Grid Dynamics"
+                                    name: "Алексей Романов"
                         - name: "Трек 2"
                           title: "Доклад уточняется"
                           speaker:
