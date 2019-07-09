@@ -46,3 +46,11 @@
   website: https://www.sibintek.ru
   logo: static/images/sponsors/sibintek.png
   hover: static/images/sponsors/sibintek.png
+- name: RokoLABS
+  website: https://www.rokolabs.com
+  logo: static/images/sponsors/rokolabs.png
+  hover: static/images/sponsors/rokolabs.png
+- name: DigitalDesign
+  website: https://www.digdes.ru
+  logo: static/images/sponsors/digdes.png
+  hover: static/images/sponsors/digdes.png
